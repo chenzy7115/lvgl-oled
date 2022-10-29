@@ -22,7 +22,7 @@ assert((SPI_HOST <= host) && (VSPI_HOST >= host));
 
     dma_channel = SPI_DMA_CH_AUTO;//DMA通道自动选择
 
-# 2.提升以下两个宏未定义，下面的代码是手动在lvgl_helpers.h中定义，然后编译通过
+# 2.编译时提示以下两个宏未定义，下面的代码是手动在lvgl_helpers.h中定义，然后编译通过
 
 #define LV_HOR_RES_MAX 128
 
